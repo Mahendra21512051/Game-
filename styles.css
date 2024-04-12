@@ -1,0 +1,316 @@
+/* styles.css */
+
+/* styles.css */
+/* Global Styles */
+.container {
+  width: 100vw; /* Set the width to 100% of the viewport width */
+  margin: 0; /* Ensure no default margins */
+  padding: 0; /* Ensure no default padding */
+  background-color: #0088cc; /* Example background color */
+  /* Add any other styles you want for the container */
+}
+
+.navbar-right {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  margin-top: 0px;
+  background-color: cornflowerblue;
+  width: 100vw;
+  /* Set the width of the navbar to 100% of the viewport width */
+}
+
+.navbar-right ul {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+}
+
+.navbar-right ul li {
+  margin-right: 0px;
+
+  margin-bottom: px;
+  margin-right: 0;
+  width: 100vw; /* Remove right margin */
+}
+
+.navbar-right ul li a {
+  display: block;
+  color: black;
+  text-align: center;
+
+  padding: 4px 10px;
+
+  text-decoration: none;
+}
+
+.navbar-right ul li a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.image-banner {
+  max-width: 100%; /* Adjusted to maintain aspect ratio */
+  height: auto; /* To maintain aspect ratio */
+}
+
+.main-body {
+  margin-top: 20px;
+  max-width: 100vw;
+}
+
+.main-image {
+  width: 100vw; /* Ensure image spans full width of container */
+  height: auto; /* Ensure image doesn't exceed container width */
+  /* To maintain aspect ratio */
+}
+
+.telegram {
+  font-weight: bold;
+  background-color: #0088cc;
+  color: white;
+  font-size: 0.3rem;
+  text-align: center;
+  margin: 0.15rem;
+  border-radius: 0.1rem;
+  border: 2px solid #000;
+  font-size: 0.7rem; /* Further adjust font size for even smaller screens */
+  margin: 0.5rem;
+}
+.App_Recomended {
+  font-weight: bold;
+  background-color: rgb(255, 0, 13);
+  text-align: center;
+  font-size: 0.3rem;
+  color: rgb(255, 255, 255);
+  height: 50px;
+}
+.Heading {
+  font-size: 24px; /* Adjust the font size of the heading */
+  color: #f0f0f0ef; /* Set the color of the heading */
+  font-weight: bold; /* Set the font weight to bold */
+  text-transform: uppercase;
+  /* Convert the text to uppercase */
+}
+.fa {
+  display: inline-block;
+  font: normal normal normal 14px / 1 FontAwesome;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.tab_box {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap to the next line */
+  justify-content: space-between; /* Distribute items evenly along the main axis */
+  width: 100%; /* Set width to 100% */
+  max-width: 1200px; /* Set maximum width to prevent excessive stretching */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.sub_box {
+  width: 100%; /* Make each sub box take up full width */
+  margin-bottom: 20px; /* Add margin to separate rows */
+}
+
+.flex {
+  display: flex;
+  align-items: center; /* Align items vertically */
+}
+
+.flex_grow {
+  flex-grow: 1; /* Allow flex items to grow to fill available space */
+}
+
+.sub_box ul {
+  padding: 0; /* Remove default padding */
+  list-style-type: none; /* Remove default list styling */
+}
+
+.sub_box li {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  padding: 10px; /* Add padding to each list item */
+  border: 1px solid #ccc; /* Add border for visual separation */
+  width: 100%; /* Set width to 100% */
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
+}
+
+.sub_box li img {
+  width: 100px; /* Adjust width of images */
+  margin-right: 20px; /* Add margin to separate image from text */
+}
+
+/* Adjustments for smaller screens */
+@media screen and (max-width: 768px) {
+  .sub_box li {
+    flex-direction: column; /* Change flex direction to column for smaller screens */
+    align-items: flex-start; /* Align items to the start of the column */
+  }
+}
+
+.tab_cont {
+  width: 100%;
+}
+.Dont_Copy_AllRummyApp_Com {
+  max-width: 800px; /* Set maximum width */
+  margin: 0 auto; /* Center the content horizontally */
+  padding: 20px;
+  padding: 10px;
+}
+
+/* Images */
+.logo {
+  max-width: 100%; /* Make images responsive */
+  height: auto; /* Maintain aspect ratio */
+}
+
+/* Tables */
+table {
+  width: 100%; /* Make tables responsive */
+  border-collapse: collapse; /* Collapse borders */
+}
+
+th,
+td {
+  border: 1px solid #ddd; /* Add borders to table cells */
+  padding: 8px; /* Add padding to table cells */
+}
+
+th {
+  background-color: #f2f2f2; /* Background color for table headers */
+}
+/* Default Styles */
+.AllBestRummyApp_Slider {
+  max-width: 800px; /* Set maximum width */
+  margin: 0 auto; /* Center the content horizontally */
+
+  padding: 10px;
+}
+
+.AllRummyApps_ticker {
+  background-color: #f2f2f2; /* Background color */
+  padding: 10px; /* Add padding */
+}
+
+.title {
+  font-weight: bold;
+  background-color: yellow; /* Set the background color to yellow */
+  padding: 10px;
+}
+
+.news {
+  margin-top: 10px;
+  background-color: aquamarine;
+  margin-top: 10px;
+}
+
+/* Marquee */
+marquee {
+  overflow: hidden; /* Hide overflowing content */
+  white-space: nowrap;
+  background-color: aqua; /* Prevent line breaks */
+}
+
+marquee p {
+  display: inline-block; /* Make paragraphs inline */
+  margin: 0; /* Remove default margins */
+}
+.image-popup {
+  position: relative;
+  display: inline-block;
+  max-width: 100%; /* Ensure container spans full width */
+}
+
+.main-image {
+  display: block;
+  width: 100vw;
+  height: auto;
+  position: relative; /* Ensure relative positioning for absolute children */
+}
+
+.popup-button {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+  margin-right: 100;
+}
+
+.popup-button img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@keyframes popupAnimation {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+.footer-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-nav {
+  flex: 1;
+}
+
+.footer-nav .footer-links {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.footer-nav .footer-links li {
+  display: inline;
+  margin: 0 10px;
+}
+
+.footer-nav .footer-links li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.footer-nav .footer-links li a:hover {
+  text-decoration: underline;
+}
+
+.social-media {
+  flex: 1;
+  text-align: center;
+}
+
+.social-media a {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+.social-media img {
+  width: 30px;
+}
